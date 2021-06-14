@@ -1,0 +1,84 @@
+body {
+  background-color: #efd3d7;
+  font-family: "Nunito", sans-serif;
+}
+#mainnavbar .navbar-brand {
+  color: rgb(158, 0, 145);
+  font-size: 3rem;
+  font-weight: bold;
+}
+#mainnavbar .navbar-brand:hover {
+  color:  #5c1f99;
+}
+#mainnavbar {
+  font-size: 2rem;
+  font-weight: normal;
+}
+#mainnavbar .nav-link {
+  color: #5c1f99;
+}
+#mainnavbar .nav-link:hover {
+  color: white;
+}
+/*.navbar-toggler-icon
+{
+  border: 1px solid rgb(255, 146, 183);
+}*/
+#headingGroup span
+{
+  color: white;
+}
+#headingGroup h1{
+  font-weight: 100;
+  font-size: 3.5rem;
+  color: #5c1f99;
+}
+#post h2
+{
+color: #5c1f99;
+font-weight: 200;
+font-size: 2.5rem;
+
+}
+#post p
+{
+  color: #3f3f3f;
+  line-height: 1.5em;
+  font-weight: 100;
+}
+.navbar.scrolled {
+  background: rgb(249, 220, 244);
+  transition: background 500ms;
+}
+@media (max-width: 1400px)
+{
+  #headingGroup h1{
+    font-weight: 100;
+    font-size: 3rem;
+    margin-top: 10px;}
+
+    #mainnavbar .nav-link {
+      font-size: 1.8rem;
+    }
+}
+@media (max-width: 1200px)
+{
+  #headingGroup h1{
+    font-weight: 100;
+    font-size: 2.8rem;}
+    #mainnavbar .nav-link {
+      font-size: 1.5rem;
+    }
+   
+}
+@media (max-width: 1150px)
+{
+  #headingGroup h1{
+    font-weight: 100;
+    font-size: 2.2rem;
+  }
+  #post p
+{
+  font-size: 1.2rem;
+}   
+}
