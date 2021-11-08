@@ -1,2 +1,4 @@
 # Museum_of_candy
-fully responsive website using HTML CSS and Bootstrap.
+Mini project as a part of the web development course by Colt Steele on Udemy.
+A responsive website built using HTML, CSS and Bootstrap. 
+
